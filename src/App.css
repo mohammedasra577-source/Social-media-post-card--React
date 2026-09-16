@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: white;
+}
+
+.feed {
+  width: 100%;
+  max-width: 440px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin: 0 0 30px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.post-card {
+  padding: 20px;
+  background-color: lightgray;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-picture {
+  display: block;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  margin: 0 0 4px;
+  font-size: 17px;
+}
+
+.timestamp {
+  margin: 0;
+  color: #555;
+  font-size: 13px;
+}
+
+.post-caption {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.post-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
